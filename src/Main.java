@@ -7,7 +7,6 @@ public class Main {
         weight[0] = 1;
         weight[1] = 2;
         weight[2] = 3;
-        System.out.println(Arrays.toString(weight));
         for (int i : weight) {
             if (i < weight.length)
                 System.out.print(i + ", ");
@@ -18,7 +17,6 @@ public class Main {
         System.out.println();
 
         double[] arr = {1.57, 7.654, 9.986};
-        System.out.println(Arrays.toString(arr));
         for (int i = 0; i < arr.length; i++) {
             if (i < arr.length - 1)
                 System.out.print(arr[i] + ", ");
@@ -32,7 +30,6 @@ public class Main {
         array1[0] = 5;
         array1[1] = 17;
         array1[2] = 350;
-        System.out.println(Arrays.toString(array1));
         for (int i = 0; i < array1.length; i++) {
             if (i < array1.length - 1)
                 System.out.print(array1[i] + ", ");
@@ -78,8 +75,8 @@ public class Main {
                 System.out.print(weight[i] + ", ");
             else {
                 System.out.print(weight[i]);
+            };
 
-            }
         }
 
 
